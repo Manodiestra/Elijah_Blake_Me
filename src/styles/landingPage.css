@@ -1,0 +1,22 @@
+.landingPageBase {
+  background-color: black;
+  color: white;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+nav a {
+  color: white;
+}
+
+.navbar-nav .nav-item a {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.navbar-nav .nav-item a:hover {
+  background-color: #222222;
+}
+/*# sourceMappingURL=landingPage.css.map */
