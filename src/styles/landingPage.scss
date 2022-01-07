@@ -1,4 +1,3 @@
-$navLinkColor: white;
 
 .landingPageBase {
   background-color: black;
@@ -9,15 +8,3 @@ $navLinkColor: white;
   width: 100%;
 }
 
-nav a {
-  color: $navLinkColor;
-}
-
-.navbar-nav .nav-item a {
-  color: $navLinkColor;
-  border-bottom: 1px solid white;
-}
-
-.navbar-nav .nav-item a:hover {
-  background-color: #222222;
-}
