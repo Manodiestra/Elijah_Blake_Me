@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 
 .landingPageBase {
   background-color: black;
@@ -8,3 +11,70 @@
   width: 100%;
 }
 
+.noMargin {
+  margin: 0 !important;
+}
+
+.content-container {
+  position: relative;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-40%);
+  -moz-transform: translateX(-50%) translateY(-40%);
+  -webkit-transform: translateX(-50%) translateY(-40%);
+  transform: translateX(-50%) translateY(-40%);
+}
+
+.content-container .container {
+  position: relative;
+  z-index: 2;
+  -ms-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  transform: translateY(-20%);
+}
+
+.content-container .transparentOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.custom-footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  .content-container {
+    background: url("/src/assets/mobile_sub.png") black no-repeat center center scroll;
+  }
+
+  .content-container video {
+    display: none;
+  }
+}

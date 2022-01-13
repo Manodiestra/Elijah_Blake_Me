@@ -31,21 +31,30 @@
     </script>
   </head>
   <body class="landingPageBase">
-    <div class="container-fluid">
+    <div class="content-container">
 
       <!-- Main page navigation -->
       <div id="mainNavContent"></div>
 
-      <div class="row align-items-start">
-        <div class="col">
-          <video autoplay muted loop id="backgroundVideo" class="img-fluid">
-            <source src="/src/assets/Background-vid-720.mp4" type="video/mp4">
-          </video>
+      <div class="transparentOverlay"></div>
+
+      <video autoplay muted loop playsinline="playsinline" id="backgroundVideo">
+        <source src="/src/assets/Background-vid-720.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">Hi, I'm Elijah</h1>
+            <p id="changingText">I'm a proud Software Developer</p>
+          </div>
         </div>
-        <div class="col">
-          <p id="changingText">I'm a proud </p>
-          <p>We become what we think about the most</p>
-          <p>Fill your mind with greatness</p>
+      </div>
+      <div class="custom-footer">
+        <div class="d-flex text-center align-items-center">
+          <div class="w-100 text-white">
+            <p>We become what we think about the most</p>
+            <p>Fill your mind with greatness</p>
+          </div>
         </div>
       </div>
     </div>

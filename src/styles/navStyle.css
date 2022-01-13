@@ -1,4 +1,12 @@
+nav {
+  z-index: 5;
+}
+
 nav a {
+  color: white;
+}
+
+nav div a {
   color: white;
 }
 

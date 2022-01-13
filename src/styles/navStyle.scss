@@ -1,6 +1,14 @@
 $navLinkColor: white;
 
+nav {
+  z-index: 5;
+}
+
 nav a {
+  color: $navLinkColor;
+}
+
+nav div a {
   color: $navLinkColor;
 }
 
