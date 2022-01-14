@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,SAAS;CACjB",
-    "sources": [
-        "aboutMeStyle.scss"
-    ],
-    "names": [],
-    "file": "aboutMeStyle.css"
-}
