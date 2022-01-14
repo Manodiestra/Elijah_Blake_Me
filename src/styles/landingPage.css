@@ -1,20 +1,3 @@
-body {
-  overflow-x: hidden;
-}
-
-.landingPageBase {
-  background-color: black;
-  color: white;
-}
-
-.fullWidth {
-  width: 100%;
-}
-
-.noMargin {
-  margin: 0 !important;
-}
-
 .content-container {
   position: relative;
   height: 100vh;
