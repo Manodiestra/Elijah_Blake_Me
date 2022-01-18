@@ -30,7 +30,16 @@ body {
   margin-top: 16px;
 }
 
+.subHeading {
+  border-bottom: solid white 2px;
+}
+
 .space {
   height: 128px;
+}
+
+.pairedImage {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 /*# sourceMappingURL=common.css.map */
