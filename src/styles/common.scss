@@ -31,6 +31,14 @@ body {
   margin-top: 16px;
 }
 
+.subHeading {
+  border-bottom: solid white 2px;
+}
+
 .space {
   height: 128px;
+}
+
+.pairedImage {
+  object-fit: contain;
 }
