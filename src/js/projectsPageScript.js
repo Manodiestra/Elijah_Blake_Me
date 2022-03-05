@@ -1,5 +1,8 @@
-// Open the where I am component for the user
-let whereIAmToggle = document.getElementById("webDevContentToggle");
+// Open the section of the page the user navigated to
+let targetDivName = window.location.href.split('#')[1];
+let targetContentDiv = document.getElementById(targetDivName);
+
+// Auto expand the target div content
 setTimeout(function() {
-  whereIAmToggle.click();
+  targetContentDiv.click();
 }, 500);
