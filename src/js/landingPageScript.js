@@ -13,6 +13,6 @@ function changeTextDisplay() {
       curIndex % textOptions.length];
     curIndex++;
     changeTextDisplay();
-  }, 1000);
+  }, 1600);
 }
 changeTextDisplay();
